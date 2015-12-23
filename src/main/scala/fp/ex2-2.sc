@@ -16,5 +16,4 @@ def isSorted[A] (arr: Array[A], p: (A, A) => Boolean): Boolean = {
 }
 
 isSorted[Int](Array(1,2,3,5), _ <= _)
-isSorted[String](Array("", "1","" +
- "02", ""), _.length <= _.length)
+isSorted[String](Array("", "1","02", ""), _.length <= _.length)
